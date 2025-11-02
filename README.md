@@ -68,7 +68,7 @@
     MIT 라이선스 조항에 따라 누구나 이 코드를 자유롭게 사용, 복제, 수정 및 배포할 수 있습니다.
 
 2.  **저작권 및 상표권 (Copyright & Trademark)**
-    'Lose My Mind(LLM) Helper'라는 이름과 로고(향후 제작 시) 등 핵심 아이덴티티(브랜드)에 대한 모든 권리는 원저작자인 **happycoding0-0(LeeJeeWoo (이지우))** 에게 있습니다.
+    'Lose My Mind(LLM) Helper'라는 이름과 로고(향후 제작 시) 등 핵심 아이디어와 아이덴티티(브랜드)에 대한 모든 권리는 원저작자인 **happycoding0-0(LeeJeeWoo (이지우))** 에게 있습니다.
     MIT 라이선스는 소스 코드의 사용을 허락하는 것이며, 'Lose MyMind'라는 브랜드의 상표권을 허락하는 것이 아닙니다.
 
 3.  **유료 버전 (Pro Version)**
