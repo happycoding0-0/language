@@ -1,0 +1,44 @@
+/*
+ * LLM Helper 팝업 스타일 (v0.4)
+ */
+
+.lmm-popup {
+  position: absolute; /* 페이지의 특정 좌표에 고정 */
+  z-index: 9999;      /* 다른 모든 요소보다 위에 보이도록 */
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 14px;
+  width: 300px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  display: none; /* 평소에는 숨겨 둡니다 */
+}
+
+/* 원문 텍스트 (흐리게, 원본) */
+.lmm-popup-original {
+  font-size: 14px;
+  color: #888;
+  font-style: italic;
+  max-height: 100px; /* 너무 길면 스크롤 */
+  overflow-y: auto;
+}
+
+/* 구분선 */
+.lmm-popup-divider {
+  height: 1px;
+  background-color: #eee;
+  margin: 10px 0;
+}
+
+/* 결과 텍스트 (진하게, 결과물) */
+.lmm-popup-result {
+  font-size: 15px;
+  font-weight: 500; /* 약간 굵게 */
+  color: #005a9c; /* 파란색 계열로 강조 */
+  max-height: 150px;
+  overflow-y: auto;
+}

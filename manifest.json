@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "LLM - words (Lose My Mind)",
+  "version": "0.4",
+  "description": "Learning something is painful. We help you learn something without losing your mind.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_script.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "host_permissions": [
+    "https://api.dictionaryapi.dev/*",
+    "https://translate.googleapis.com/*"
+  ]
+}
