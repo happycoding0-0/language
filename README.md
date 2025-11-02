@@ -1,5 +1,52 @@
-# LoseMyMind
-Learning something is painful.
-We help you learn something without losing your mind.  
-Stop losing your mind over new words. This extension helps you learn languages smoothly, right when you need it
-(무언가를 배우는 것은 고통스럽습니다. 우리는 당신이 멘붕하지 않고 배울 수 있도록 돕습니다.)
+# Lose My Mind (LLM) Helper
+
+> "Learning something is painful. We help you learn something without losing your mind."
+
+'Lose My Mind(LLM) Helper'는 학습 과정에서 겪는 고통스러운 순간(Pain Point)을 해결하여, 사용자가 '멘붕'하지 않고 학습의 흐름을 이어갈 수 있도록 돕는 도구 프로젝트입니다.
+
+이 저장소는 LLM 프로젝트의 첫 번째 서비스인 **'Language(언어 학습)'** 기능의 소스 코드입니다.
+
+---
+
+## 주요 기능 (v0.4 - Language)
+
+현재 웹페이지의 텍스트를 즉시 분석하여, 사용자의 독서 흐름을 깨지 않는 3가지 핵심 기능을 제공합니다.
+
+* **1. 영-영 사전 (Eng-Eng)**
+    * **작동:** 영어 **단어** (15자 미만)를 **더블클릭**하세요.
+    * **목표:** 영어를 영어로 공부하는 사용자를 위해 즉시 영영사전 뜻을 보여줍니다.
+
+* **2. 영-한 번역 (Eng-Kor)**
+    * **작동:** 영어 **문장** (15자 이상)을 **드래그**하세요.
+    * **목표:** 긴 문장이나 어려운 구문을 만났을 때, 흐름이 끊기지 않도록 즉시 한국어 번역을 제공합니다.
+
+* **3. 한-영 번역 (Kor-Eng)**
+    * **작동:** 한국어 **단어/문장**을 **드래그**하세요.
+    * **목표:** 한국어 텍스트를 읽다가 '이걸 영어로 뭐라고 하지?'라는 생각이 들 때 즉시 영어 번역을 제공합니다.
+
+---
+
+## 로컬 설치 및 테스트 방법
+
+이 확장 프로그램은 아직 크롬 웹 스토어에 등록되지 않았습니다. 아래 방법으로 로컬에 설치하여 테스트할 수 있습니다.
+
+1.  이 저장소의 코드를 다운로드합니다. (우측 상단 초록색 `<> Code` 버튼 -> `Download ZIP`)
+2.  다운로드한 ZIP 파일의 압축을 풉니다. (예: `LoseMyMind-main` 폴더)
+3.  크롬 브라우저를 열고, 주소창에 **`chrome://extensions`** 를 입력하여 이동합니다.
+4.  페이지 우측 상단의 **'개발자 모드(Developer mode)'** 스위치를 **켭니다.**
+5.  페이지 좌측 상단의 **'압축해제된 확장 프로그램을 로드합니다(Load unpacked)'** 버튼을 클릭합니다.
+6.  압축을 푼 **폴더** (예: `LoseMyMind-main`)를 선택합니다.
+7.  'LLM - words (Lose My Mind)' 카드가 생성되면 설치 성공입니다.
+
+---
+
+## 사용된 기술 (APIs)
+
+* **`dictionaryapi.dev`**: 무료 영-영 사전 API
+* **`translate.googleapis.com`**: 키(Key)가 필요 없는 Google 번역 API 엔드포인트
+
+## 다음 목표 (Roadmap)
+
+* [ ] **v0.5: 한-한(K-K) 사전 기능 추가** (국립국어원 API 등 연동)
+* [ ] **v0.6: 팝업 UI 개선** (아이콘, 폰트 등)
+* [ ] **v1.0: 단어/문장 저장하기 ('나만의 노트' 기능)**
