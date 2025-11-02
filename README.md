@@ -24,6 +24,11 @@
     * **작동:** 한국어 **단어/문장**을 **드래그**하세요.
     * **목표:** 한국어 텍스트를 읽다가 '이걸 영어로 뭐라고 하지?'라는 생각이 들 때 즉시 영어 번역을 제공합니다.
 
+
+---
+## Demo GIF  
+   ![Lose My Mind Helper 데모](https://github.com/happycoding0-0/LoseMyMind/blob/main/demo.gif)
+
 ---
 
 ## 로컬 설치 및 테스트 방법
