@@ -81,8 +81,12 @@ async function getTranslation(text, sourceLang, targetLang) {
     if (!response.ok) return "번역 실패";
     
     const data = await response.json();
-    // 구글 번역 API는 결과가 data[0][0][0]에 있습니다.
-    return data[0][0][0];
+    // 구글 번역 API는 결과가 data[0][n][0]에 있습니다.
+    const count = data[0].length;
+    let dt = []
+    for (var i =0 ; i < count ; i++){dt.push(data[0][i][0])}
+    
+    return dt.join(" ");
   } catch (error) {
     return "번역 API 오류";
   }
