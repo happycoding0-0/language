@@ -44,6 +44,9 @@
 6.  압축을 푼 **폴더** (예: `LoseMyMind-main`)를 선택합니다.
 7.  'LLM - words (Lose My Mind)' 카드가 생성되면 설치 성공입니다.
 
+## 로컬 설치 및 테스트 방법 참고
+https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world?hl=ko
+
 ---
 
 ## 💻 사용된 기술 (APIs)
